@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* In your CSS file */
+.pseudo-element::after {
+  content: attr(data-content);
+  position: absolute;
+  top: 2px;
+  left: -2.5rem;
+}
