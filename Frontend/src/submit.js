@@ -28,8 +28,11 @@ const selector = (state) => ({
             headers:{
                 "Content-type":"application/json"
             },
-            body:JSON.stringify({pipeline:{nodes,edges}})
-        }).then(resData=>resData.json())
+            body:JSON.stringify({
+                    pipeline:JSON.stringify({pipeline:{nodes,edges}}),
+              })
+        })
+        .then(resData=>resData.json())
         .then(res=>{
             console.log(res)
         })
