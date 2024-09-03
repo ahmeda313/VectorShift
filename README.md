@@ -14,7 +14,7 @@
 ## Issues
 1. In **Task 3** new handles are added but are not functional.
 
-2. Sending data using **FastAPI** and testing for **DAG**
+2. Sending data to **FastAPI** backend and testing for **DAG**
 
 3. Tried to add extra functionalities like
     - [ ] ability to delete all nodes
